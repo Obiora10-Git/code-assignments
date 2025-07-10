@@ -29,6 +29,7 @@ span{
     padding: 2.5rem;
     display: flex;
     flex-flow: row wrap;
+    flex-basis: 1 1 315px;
     gap: 2rem 2.5rem ;
     justify-content: center;
     
@@ -39,8 +40,8 @@ span{
 .container{
     background-color: #fff;
     border: 1px thin black;
-    width: 315px;
-    height: 150px;
+    width: 45.32vh;
+    height: 21.5vh;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(20, 1fr);
@@ -70,7 +71,8 @@ span{
     border-color: black ;
     border-radius: 50%;
     height: 0.7em;
-    margin: 0.1em;
+    
+    
     
 
 }
@@ -98,14 +100,14 @@ span{
 .box:nth-child(1){
     background-color: #fff;
     grid-area: 1 / 1 / 15 / 2;
-    padding: 0.32em;
-    display: grid;
-    grid-auto-flow: row;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+    overflow: hidden;
+    width: 36px;
+    height: 14.8vh;
 }
-
 .box:nth-child(2){
     background-color: #f5b8a5;
     grid-area: 15 / 1 / 21 / 9;
@@ -162,16 +164,15 @@ span{
 
 .box:nth-child(1){
      background-color: #fff;
-     padding: 0.32em;
-    display: grid;
-    height: auto;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.1em;
-    grid-auto-flow: column;
+     display: flex;
+     flex-direction: column;
     align-content: center;
     justify-content: center;
     grid-area: 12 / 7 / 17 / 12;
-    
+    gap: 8px;
+    overflow: hidden;
+    height: 36px;
+    width: 14.8vh;
 }
 
 .box:nth-child(2){
@@ -232,17 +233,16 @@ span{
 
 .box:nth-child(1){
      background-color: #fff;
-     padding: 0.32em;
      height: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.1em;
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     grid-area: 5 / 11 / 9 / 18;
-    
-
+    gap: 8px;
+    overflow: hidden;
+    height: 36px;
+    width: 14.8vh;
     
 }
 
@@ -303,17 +303,16 @@ span{
 
 .box:nth-child(1){
      background-color: #fff;
-     padding: 0.32em;
      height: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.1em;
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     grid-area: 1 / 4 / 5 / 10;
-    
-
+    gap: 8px;
+    overflow: hidden;
+    width: 14.8vh;
+    height: 36px;
     
 }
 
@@ -377,15 +376,16 @@ span{
 
 .box:nth-child(1){
      background-color: #fff;
-     padding: 0.32em;
      height: auto;
-    display: grid;
-    grid-auto-flow: row;
+    display: flex;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
     grid-area: 7 / 15 / 21 / 17;
-    
-
+    gap: 8px;
+    overflow: hidden;
+    width: 36px;
+    height: 14.8vh;
     
 }
 
@@ -446,14 +446,16 @@ span{
 
 .box:nth-child(1){
      background-color: #fff;
-     padding: 0.32em;
      height: auto;
-    display: grid;
-    grid-auto-flow: row;
+    display: flex;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
     grid-area: 1 / 11 / 15 / 13; 
-    
+    gap: 8px;
+    overflow: hidden;
+    width: 36px;
+    height: 14.8vh;
 
     
 }
@@ -512,17 +514,16 @@ span{
 
 .box:nth-child(1){
      background-color: #fff;
-     padding: 0.32em;
      height: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.1em;
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     grid-area: 16 / 1 / 21 / 7;
-    
-
+    gap: 8px;
+    overflow: hidden;
+    width: 14.8vh;
+    height: 36px;
     
 }
 
@@ -582,16 +583,16 @@ span{
 
 .box:nth-child(1){
      background-color: #fff;
-     padding: 0.32em;
      height: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0.1em;
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     grid-area: 12 / 1 / 16 / 7;
-
+    gap: 8px;
+    overflow: hidden;
+    width: 14.8vh;
+    height: 36px;
     
 }
 
@@ -647,14 +648,16 @@ span{
 
 .box:nth-child(1){
      background-color: #fff;
-     padding: 0.32em;
      height: auto;
-    display: grid;
-    grid-auto-flow: row;
+    display: flex;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
     grid-area: 5 / 9 / 17 / 11;
-
+    gap: 8px;
+    overflow: hidden;
+    width: 36px;
+    height: 14.8vh;
     
 }
 
