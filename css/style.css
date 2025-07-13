@@ -59,11 +59,11 @@ span {
 }
 
 .circle {
-  min-width: 19px;
+  min-width: 2.5vh;
   border-color: black;
   border-radius: 50%;
-  height: 19px;
-  margin: 0 auto;
+  min-height: 2.5vh;
+  
 }
 
 #slot-1 {
@@ -590,5 +590,35 @@ span {
   .box:nth-child(7) {
     background-color: #c2c99e;
     grid-area: 17 / 1 / 21 / 18;
+  }
+}
+
+@media only screen and (min-height: 1180px) and (max-height: 1440px) {
+  #slot-1 .box:nth-child(1){
+    width: 60px;
+  }
+  #slot-2 .box:nth-child(1){
+    height: 4.5vh;
+  }
+  #slot-3 .box:nth-child(1){
+    height: 4.5vh;
+  }
+  #slot-4 .box:nth-child(1){
+   height: 4.5vh; 
+  }
+  #slot-5 .box:nth-child(1){
+    width: 60px;
+  }
+  #slot-6 .box:nth-child(1){
+    width: 60px;
+  }
+  #slot-7 .box:nth-child(1){
+    height: 4.5vh; 
+  }
+  #slot-8 .box:nth-child(1){
+    height: 4.5vh; 
+  }
+  #slot-9 .box:nth-child(1){
+    width: 60px;
   }
 }
